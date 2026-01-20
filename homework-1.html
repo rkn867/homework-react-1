@@ -1,0 +1,33 @@
+<html>
+<head>
+<title>Мой первый сайт</title>
+<style>
+body { font-family:Arial,sans-serif;padding:24px}
+.card { max-width:700px;border:1 px solid #ddd;border-radius:12px;padding:16px}
+.button { padding:10px 12px;border: 0;border-radius:10;cursor:pointer;}
+</style>
+</head>
+<body>
+<div class="card">
+<h1>Привет это мой первый мини-сайт</h1>
+<p>Меня зовут:<strong>Карлыгаш</strong></p>
+<h2>Что я люблю</h2>
+<ul>
+<li>Игры</li>
+<li>Музыку</li>
+<li>Пиццу</li>
+</ul>
+
+<button id="btn">Нажми на меня</button>
+<p id="result"></p>
+</div>
+<script>
+const btn=document.getElementyById('btn');
+const result=document.getElementyById('result');
+btn.addEventListener('click' , () => {
+result.textContent='Кнопка работает! Молодец;});
+</script>
+
+</body>
+
+</html>
